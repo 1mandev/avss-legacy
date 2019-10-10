@@ -1,0 +1,50 @@
+.avss-btn{
+  font-weight: 500;
+  padding: 6px 40px;
+  border-radius: 40px;
+  outline: none;
+  border: none;
+  color: #fefefe;
+  box-shadow: 1px 1px 3px #00206080;
+}
+
+.avss-btn-primary{
+  background-color: #002060;
+}
+
+.avss-btn-secondary{
+  background-color: #00b050;
+}
+
+
+.avss-btn-primary-o{
+  color: #002060;
+  border: 2px solid #002060;
+  background-color: transparent;
+}
+
+.avss-btn-primary-o:hover{
+  color: #fefefe;
+  background-color: #002060;
+  border: 3px solid #002060;
+}
+
+.avss-btn-secondary-o{
+  color: #00b050;
+  border: 2px solid #00b050;
+  background-color: transparent;
+}
+
+.avss-btn-secondary-o:hover{
+  color: #fefefe;
+  background-color: #00b050;
+  border: 3px solid #00b050;
+}
+
+.avss-btn:hover,
+.avss-btn:active{
+  opacity: 0.9;
+  color: #fefefe;
+  box-shadow: none;
+  outline: none;
+}
